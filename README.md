@@ -11,6 +11,9 @@ I'm not a good FrontEnd developer, so ignore or make the fonts better.
 
 
 https://material.io/icons/
+
 https://getmdl.io/
+
 https://github.com/balintsoos/material-ripple
+
 https://www.dafont.com/pt/roboto.font
