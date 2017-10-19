@@ -31,11 +31,10 @@ $(document).on('blur', '.md-input-container input, .md-textarea-container textar
 	}
 });
 
-$(document).on('click', '.md-checkbox-container', function() {
-	$(this).find('input').click();
-});
-
 $(document).on('click', '.md-menu-popup-trigger', function() {
+	if ($('.md-menu-popup').is(':visible')) {
+		$('.md-menu-popup').removeClass('is-visible');
+	}
 	var target = ('#' + $(this).attr("for"));
 	$(target).addClass('is-visible');
 });
